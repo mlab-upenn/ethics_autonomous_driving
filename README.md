@@ -4,7 +4,7 @@ The above repository is adapted from the CommonRoad Search platform for evaluati
 
 1. Set up the commonroad docker: first clone the commonroad-search repository (https://gitlab.lrz.de/tum-cps/commonroad-search/-/tree/master/) and then follow the instructions in the docker subdirectory
 2. Replace the commonroad-search subdirectory with this repository
-3. Copy any scenarios you want to test into the commonroad-scenarios-master subdirectory. Currently it contains the dilemma scenario used for ethical analysis.
+3. Copy any scenarios you want to test into the commonroad-scenarios-master subdirectory. Currently it contains the dilemma scenario used for ethical analysis. (https://drive.google.com/drive/folders/17bqWMaEFcz0zNl9tVbFvEVg_a_2cfY0M?usp=sharing)
 4. In SMP --> motion_planner --> student.py, replace this algorithm with any planner that also employs the BestFirstSearch algorithm.
 5. In tutorials --> batch_processing, run the script to generate solutions for your planner. 
 6. In outputs --> processing, run the scripts to generate data for the solutios found.
